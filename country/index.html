@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #global{
+            display: flex;
+            justify-content: space-around;
+        }
+        #global div{
+            width: 40%;
+        }
+        hr{
+            margin: 3rem 0;
+        }
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="global">
+        <div>
+            <h2>Il y a <span id="nbEn"></span> pays qui parlent anglais</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Capitale</th>
+                        <th>Monnaie</th>
+                        <th>Nb d'habitants</th>
+                    </tr>
+                </thead>
+                <tbody id="tableEn"></tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Il y a <span id="nbFr"></span> pays qui parlent français</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Capitale</th>
+                        <th>Monnaie</th>
+                        <th>Nb d'habitants</th>
+                    </tr>
+                </thead>
+                <tbody id="tableFr"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <form>
+        <select name="country" id=""></select>
+        <button>Afficher les informations</button>
+    </form>
+
+    <div id="infos">
+        <h2>Nom: <span id="name"></span></h2>
+        <h3>Capitale: <span id="capital"></span></h3>
+        <p>Region: <span id="region"></span></p>
+        <p>Nombre d'habitants: <span id="population"></span></p>
+        <p>Drapeau: <img src="" alt=""></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

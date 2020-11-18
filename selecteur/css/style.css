@@ -1,0 +1,25 @@
+body{
+	width: 800px;
+}
+
+li{
+	margin: 1em;
+	padding: 0.5em;
+	display: inline-block;
+	list-style-type: none;
+	
+}
+span{
+	font-style: italic;
+}
+.nbselect{
+	color: red;
+	font-weight: bold;
+}
+.selected{
+	background-color: forestgreen;
+	transition: background-color 1s;
+}
+.hover{
+	background-color: silver
+}
