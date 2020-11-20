@@ -2,12 +2,15 @@
 <html>
 <head>
 	<title>AJAX</title>
+	<style>
+		.section div{
+			display: inline-block;
+			width: 24%;
+		}
+	</style>
 </head>
 <body>
 	<div class="section">
-		<ul>
-		
-	</ul>
 	</div>
 	<form>
 		<div>
@@ -26,6 +29,7 @@
 			<input type="submit" name="submit">
 		</div>
 	</form>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

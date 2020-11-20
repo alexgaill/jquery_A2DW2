@@ -8,5 +8,6 @@ $contactList =
     [ 'firstName' => 'Catherine', 'phone' => '0605455548' ]
 ];
 
+echo json_encode($contactList);
 ?>
 
