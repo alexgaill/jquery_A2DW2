@@ -9,5 +9,11 @@ switch ($_GET["function"]) {
     case 'getTasks':
         $file->getTasks();
         break;
+    case 'deleteAll':
+        $file->deleteAll();
+        break;
+    case 'deleteSome':
+        $file->deleteSome($_POST);
+        break;
     
 }
